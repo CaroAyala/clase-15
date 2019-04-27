@@ -6,3 +6,80 @@ img {
   margin: 2em;
   border: 1px solid black;
 }
+body {
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+ #silenciosa {
+background-color: aquamarine;
+ }
+
+ #kitana {
+   background-color: aquamarine;
+ }
+
+ #buenito {
+   background-color: aquamarine;
+ }
+
+nav {
+  text-align: center;
+}
+a {
+ text-decoration: none;
+}
+a:hover {
+color: black;
+font-family: Arial, Helvetica, sans-serif
+ }
+
+a:visited {
+  color: rgb(0, 100, 87);
+  font-family: Arial, Helvetica, sans-serif
+   }
+
+a::before {
+  content: "-";
+}
+
+a::after {
+  content: "-"
+}
+.oferta:target {
+  color: blue;
+}  
+
+button.pago-paypal::before {
+  /* CONTENT solo sirve con ::BEFORE o ::AFTER */
+content: "soy Paypal 💰"
+}
+button {
+  color: darkgoldenrod;
+}
+
+button:hover {
+  color: chocolate;
+}
+.oferta {
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 50%;
+}
+
+
+/* #silenciosa {
+  text-align: center;
+  width: 50%;
+}
+
+#kitana {
+  text-align: center;
+  width: 50%;
+}
+
+#buenito {
+  text-align: center;
+  width: 50%;
+} */
+
